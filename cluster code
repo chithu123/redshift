@@ -1,0 +1,57 @@
+
+    "Cluster": {
+        "ClusterIdentifier": "hdfc-cluster-1",
+        "NodeType": "ra3.4xlarge",
+        "ClusterStatus": "final-snapshot",
+        "ClusterAvailabilityStatus": "Modifying",
+        "MasterUsername": "awsuser",
+        "DBName": "dev",
+        "Endpoint": {
+            "Address": "hdfc-cluster-1.cswrpybzlf1m.us-west-2.redshift.amazonaws.com",
+            "Port": 5439
+        },
+        "ClusterCreateTime": "2023-06-23T13:46:04.494000+00:00",
+        "AutomatedSnapshotRetentionPeriod": 1,
+        "ManualSnapshotRetentionPeriod": -1,
+        "ClusterSecurityGroups": [],
+        "VpcSecurityGroups": [
+            {
+                "VpcSecurityGroupId": "sg-07c76efbc4d1e92e2",
+                "Status": "active"
+            }
+        ],
+        "ClusterParameterGroups": [
+            {
+                "ParameterGroupName": "default.redshift-1.0",
+                "ParameterApplyStatus": "in-sync"
+            }
+        ],
+        "ClusterSubnetGroupName": "default",
+        "VpcId": "vpc-0971f29d80fbd15d3",
+        "AvailabilityZone": "us-west-2c",
+        "PreferredMaintenanceWindow": "mon:09:00-mon:09:30",
+        "PendingModifiedValues": {},
+        "ClusterVersion": "1.0",
+        "AllowVersionUpgrade": true,
+        "NumberOfNodes": 4,
+        "PubliclyAccessible": false,
+        "Encrypted": false,
+        "Tags": [],
+        "EnhancedVpcRouting": false,
+        "IamRoles": [
+            {
+                "IamRoleArn": "arn:aws:iam::329534899115:role/service-role/AmazonRedshift-CommandsAccessRole-20230618T143026",
+                "ApplyStatus": "in-sync"
+            }
+        ],
+        "MaintenanceTrackName": "current",
+        "DeferredMaintenanceWindows": [],
+        "NextMaintenanceWindowStartTime": "2023-06-26T09:00:00+00:00",
+        "TotalStorageCapacityInMegaBytes": 512000000,
+        "AquaConfiguration": {
+            "AquaStatus": "disabled",
+            "AquaConfigurationStatus": "auto"
+        },
+        "DefaultIamRoleArn": "arn:aws:iam::329534899115:role/service-role/AmazonRedshift-CommandsAccessRole-20230618T143026"
+    }
+}
